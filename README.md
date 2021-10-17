@@ -6,4 +6,20 @@ There are two major types of distractors: one is the whole target vocabulary use
 This code was implemented on a 64-bit Windows system with 8 GB ram and GeForce GTX 1650 4GB graphics card.
 
 Due to limited compuational power, we have trained and evaluated the model on a smaller data compared to the original data. 
-
+<table>
+  <tr>
+    <th colspan="2">Training data</th>
+    <th>Validation data</th>
+    <th>Test data</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
