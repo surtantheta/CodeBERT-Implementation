@@ -127,4 +127,4 @@ The Mean Evaluation Rank (MER), the evaluation mteric, for the subset of data is
   </tr>
  </table>
  
-The accuracy is way less than what is reported in paper. However, the purpose of this repo is to provide the user ready to implement data of CodeBERT without any heavy downloads. We have also included the prediction results in this repo corresponding to the test data.
+The accuracy is way less than what is reported in the paper. However, the purpose of this repo is to provide the user, ready to implement data of CodeBERT without any heavy downloads. We have also included the prediction results in this repo corresponding to the test data.
