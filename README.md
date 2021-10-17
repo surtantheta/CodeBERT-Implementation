@@ -91,4 +91,37 @@ cd CodeBERT-Implementation
 lang = go
 idx = 0
 ! python run_classifier.py --model_type roberta --model_name_or_path microsoft/codebert-base --task_name codesearch --do_predict --output_dir CodeBERT-Implementation/data/models/$lang --data_dir CodeBERT-Implementation/data/codesearch/test/$lang/ --max_seq_length 50 --per_gpu_train_batch_size 8 --per_gpu_eval_batch_size 8 --learning_rate 1e-5 --num_train_epochs 1 --test_file batch_short_${idx}.txt --pred_model_dir ./models/ruby/checkpoint-best/ --test_result_dir ./results/$lang/${idx}_batch_result.txt
+
+! python mrr.py
 ```
+The Mean Evaluation Rank (MER), the evaluation mteric, for the subset of data is given as follows:
+<table>
+  <tr>
+    <th> Language </th>
+    <th> MER </th>
+  </tr>
+  <tr>
+    <td>Ruby</td>
+    <td>0.0037</td>
+  </tr>
+  <tr>
+    <td>Go</td>
+    <td>0.0034</td>
+  </tr>
+  <tr>
+    <td>PHP</td>
+    <td>0.0044</td>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>0.0052</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>0.0033</td>
+  </tr>
+  <tr>
+    <td>Java script</td>
+    <td>0.0054</td>
+  </tr>
+  The accuracy is way less than what is reported in paper. However, the purpose of this repo is to provide the user ready to implement data of CodeBERT without any heavy downloads. We have also included the prediction results in this repo corresponding to the test data.
