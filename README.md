@@ -79,7 +79,7 @@ Due to limited compuational power, we have trained and evaluated the model on a 
   
   </table>
   
-Compared to the code in original <a href = "https://github.com/microsoft/CodeBERT/tree/master/CodeBERT/codesearch">repo</a>, code in this repo can be implemented directly in Windows system without any hindrance. We have already provided a subset of pre-processed data for batch_0 in 
+Compared to the code in original <a href = "https://github.com/microsoft/CodeBERT/tree/master/CodeBERT/codesearch">repo</a>, code in this repo can be implemented directly in Windows system without any hindrance. We have already provided a subset of pre-processed data for batch_0 in ```./data/codesearch/test/```
 ## Fine tuning pretrained model CodeBERT on individual languages
 ```
 lang = go
