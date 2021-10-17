@@ -11,7 +11,7 @@ Due to limited compuational power, we have trained and evaluated the model on a 
     <th rowspan ="2"> Language </th>
     <th colspan="2">Training data size</th>
     <th colspan="2">Validation data size</th>
-    <th colspan="2">Test data size</th>
+    <th colspan="2">Test data size for batch_0</th>
   </tr>
   <tr>
     <td>Original</td>
@@ -79,7 +79,7 @@ Due to limited compuational power, we have trained and evaluated the model on a 
   
   </table>
   
-Compared to the code in original <a href = "https://github.com/microsoft/CodeBERT/tree/master/CodeBERT/codesearch">repo</a>, code in this repo can be implemented directly in Windows system without any hindrance. We have already provided a subset of pre-processed data for batch_0 in ```./data/codesearch/test/```
+Compared to the code in original <a href = "https://github.com/microsoft/CodeBERT/tree/master/CodeBERT/codesearch">repo</a>, code in this repo can be implemented directly in Windows system without any hindrance. We have already provided a subset of pre-processed data for batch_0 (shown in table under Testing data size) in ```./data/codesearch/test/```
 ## Fine tuning pretrained model CodeBERT on individual languages
 ```
 lang = go
