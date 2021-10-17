@@ -8,16 +8,27 @@ This code was implemented on a 64-bit Windows system with 8 GB ram and GeForce G
 Due to limited compuational power, we have trained and evaluated the model on a smaller data compared to the original data. 
 <table>
   <tr>
+    <th> Language </th>
     <th colspan="2">Training data</th>
     <th colspan="2">Validation data</th>
     <th colspan="2">Test data</th>
   </tr>
   <tr>
+    <td></td>
     <td>Original</td>
     <td>Our</td>
     <td>Original</td>
     <td>Our</td>
     <td>Original</td>
     <td>Our</td>
+  </tr>
+  <tr>
+    <td>Ruby</td>
+    <td>97580</td>
+    <td>500</td>
+    <td>4417</td>
+    <td>100</td>
+    <td>1000000</td>
+    <td>20000</td>
   </tr>
   </table>
