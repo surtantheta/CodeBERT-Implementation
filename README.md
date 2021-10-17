@@ -9,9 +9,9 @@ Due to limited compuational power, we have trained and evaluated the model on a 
 <table>
   <tr>
     <th rowspan ="2"> Language </th>
-    <th colspan="2">Training data</th>
-    <th colspan="2">Validation data</th>
-    <th colspan="2">Test data</th>
+    <th colspan="2">Training data size</th>
+    <th colspan="2">Validation data size</th>
+    <th colspan="2">Test data size</th>
   </tr>
   <tr>
     <td>Original</td>
