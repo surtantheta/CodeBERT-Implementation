@@ -9,17 +9,15 @@ Due to limited compuational power, we have trained and evaluated the model on a 
 <table>
   <tr>
     <th colspan="2">Training data</th>
-    <th>Validation data</th>
-    <th>Test data</th>
+    <th colspan="2">Validation data</th>
+    <th colspan="2">Test data</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Original</td>
+    <td>Our</td>
+    <td>Original</td>
+    <td>Our</td>
+    <td>Original</td>
+    <td>Our</td>
   </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table>
+  </table>
