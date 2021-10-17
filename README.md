@@ -78,3 +78,5 @@ Due to limited compuational power, we have trained and evaluated the model on a 
   
   
   </table>
+  
+Compared to the code in original <a href = "https://github.com/microsoft/CodeBERT/tree/master/CodeBERT/codesearch">repo</a>, this code can be implemented directly in Windows system without any hindrance.
