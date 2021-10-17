@@ -95,6 +95,7 @@ idx = 0
 ! python mrr.py
 ```
 The Mean Evaluation Rank (MER), the evaluation mteric, for the subset of data is given as follows:
+
 <table>
   <tr>
     <th> Language </th>
@@ -124,4 +125,6 @@ The Mean Evaluation Rank (MER), the evaluation mteric, for the subset of data is
     <td>Java script</td>
     <td>0.0054</td>
   </tr>
-  The accuracy is way less than what is reported in paper. However, the purpose of this repo is to provide the user ready to implement data of CodeBERT without any heavy downloads. We have also included the prediction results in this repo corresponding to the test data.
+ </table>
+ 
+The accuracy is way less than what is reported in paper. However, the purpose of this repo is to provide the user ready to implement data of CodeBERT without any heavy downloads. We have also included the prediction results in this repo corresponding to the test data.
