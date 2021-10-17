@@ -79,11 +79,10 @@ Due to limited compuational power, we have trained and evaluated the model on a 
   
   </table>
   
-Compared to the code in original <a href = "https://github.com/microsoft/CodeBERT/tree/master/CodeBERT/codesearch">repo</a>, code in this repo can be implemented directly in Windows system without any hindrance.
-
+Compared to the code in original <a href = "https://github.com/microsoft/CodeBERT/tree/master/CodeBERT/codesearch">repo</a>, code in this repo can be implemented directly in Windows system without any hindrance. We have already provided a subset of pre-processed data in the subdirectory 
+## Fine tuning pretrained model CodeBERT on individual languages
 ```
-cd 
-languages = ['ruby', 'go', 'php', 'python', 'java', 'javascript']
-for lang in languages:
-  !python 
+lang = 'go'
+cd CodeBERT-Implementation
+! python run_classifier.py --model_type roberta --task_name codesearch --do_train --do_eval --eval_all_checkpoints --train_file train_short.txt --dev_file valid_short.txt --max_seq_length 50 --per_gpu_train_batch_size 8 --per_gpu_eval_batch_size 8 --learning_rate 1e-5 --num_train_epochs 1 --gradient_accumulation_steps 1 --overwrite_output_dir --data_dir CodeBERT-Implementation/data/codesearch/train_valid/$lang/ --output_dir ./models/$lang/ --model_name_or_path microsoft/codebert-base
 ```
