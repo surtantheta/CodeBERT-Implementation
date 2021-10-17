@@ -90,7 +90,6 @@ cd CodeBERT-Implementation
 lang = go
 idx = 0
 ! python run_classifier.py --model_type roberta --model_name_or_path microsoft/codebert-base --task_name codesearch --do_predict --output_dir CodeBERT-Implementation/data/models/$lang --data_dir CodeBERT-Implementation/data/codesearch/test/$lang/ --max_seq_length 50 --per_gpu_train_batch_size 8 --per_gpu_eval_batch_size 8 --learning_rate 1e-5 --num_train_epochs 1 --test_file batch_short_${idx}.txt --pred_model_dir ./models/ruby/checkpoint-best/ --test_result_dir ./results/$lang/${idx}_batch_result.txt
-
 ! python mrr.py
 ```
 The Mean Evaluation Rank (MER), the evaluation mteric, for the subset of data is given as follows:
