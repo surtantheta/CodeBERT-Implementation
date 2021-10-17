@@ -8,13 +8,12 @@ This code was implemented on a 64-bit Windows system with 8 GB ram and GeForce G
 Due to limited compuational power, we have trained and evaluated the model on a smaller data compared to the original data. 
 <table>
   <tr>
-    <th> Language </th>
+    <th rowspan ="2"> Language </th>
     <th colspan="2">Training data</th>
     <th colspan="2">Validation data</th>
     <th colspan="2">Test data</th>
   </tr>
   <tr>
-    <td></td>
     <td>Original</td>
     <td>Our</td>
     <td>Original</td>
