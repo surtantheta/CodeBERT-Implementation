@@ -5,3 +5,5 @@ There are two major types of distractors: one is the whole target vocabulary use
 
 This code was implemented on a 64-bit Windows system with 8 GB ram and GeForce GTX 1650 4GB graphics card.
 
+Due to limited compuational power, we have trained and evaluated the model on a smaller data compared to the original data. 
+
