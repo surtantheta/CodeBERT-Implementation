@@ -30,4 +30,51 @@ Due to limited compuational power, we have trained and evaluated the model on a 
     <td>1000000</td>
     <td>20000</td>
   </tr>
+  <tr>
+    <td>Go</td>
+    <td>635653</td>
+    <td>500</td>
+    <td>28483</td>
+    <td>100</td>
+    <td>1000000</td>
+    <td>20000</td>
+  </tr>
+  <tr>
+    <td>PHP</td>
+    <td>1047404</td>
+    <td>500</td>
+    <td>52029</td>
+    <td>100</td>
+    <td>1000000</td>
+    <td>20000</td>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>824342</td>
+    <td>500</td>
+    <td>46213</td>
+    <td>100</td>
+    <td>1000000</td>
+    <td>20000</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>908886</td>
+    <td>500</td>
+    <td>30655</td>
+    <td>100</td>
+    <td>1000000</td>
+    <td>20000</td>
+  </tr>
+  <tr>
+    <td>Javascript</td>
+    <td>247773</td>
+    <td>500</td>
+    <td>16505</td>
+    <td>100</td>
+    <td>1000000</td>
+    <td>20000</td>
+  </tr>
+  
+  
   </table>
